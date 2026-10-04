@@ -1,3 +1,21 @@
 apiVersion: v1
-entries: {}
-generated: "2026-10-04T16:56:43.056368049+03:00"
+entries:
+  jenkins:
+  - apiVersion: v2
+    appVersion: 2.440.3
+    created: "2026-10-04T17:17:17.159779724+03:00"
+    description: Helm chart for Jenkins controller with Kubernetes agents, NFS storage
+      and Istio ingress
+    digest: 9d22129736fcb0f2c75586c60a00fb5e0901d7f3fe546d49201ea6c72135af8e
+    keywords:
+    - jenkins
+    - ci
+    - cd
+    maintainers:
+    - name: mrrollwar
+    name: jenkins
+    type: application
+    urls:
+    - https://rollwar.github.io/helm-charts/jenkins-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-10-04T17:17:17.158898052+03:00"
